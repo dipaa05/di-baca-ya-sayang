@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minta Maaf ke Kamu 🥺💖</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Step 1: Input birth date -->
+	<div class="card" id="nameCard">
+		<h1>Haloo sayang💕</h1>
+		<p>Boleh masukin tanggal lahir sayang 🥰</p>
+		<input type="date" id="birthDate" />
+		<button id="submitName">Lanjut 💌</button>
+	</div>
+
+	<!-- Step 2: Minta maaf -->
+	<div class="card" id="apologyCard" style="display: none;">
+		<h1>Sayang maaf 🥺💖</h1>
+		<p id="apologyText">Maaf ya sayangg, kalo dipaa sering badmood sama sayang.</p>
+		<div class="btn-group">
+			<button id="yesBtn">Maafin 💖</button>
+			<button id="noBtn">Enggak 😠</button>
+		</div>
+	</div>
+
+	<!-- signature placed under the card(s) -->
+	<div class="footer">
+		Made with 💖 by
+		<a href="https://www.tiktok.com/@alenn.engineer.stress" target="_blank" rel="noopener">
+			@alenn.engineer.stress
+		</a>
+	</div>
+
+	<!-- Popup -->
+	<div class="popup" id="popup">
+		<div class="popup-content">
+			<h2 id="popupTitle"></h2>
+			<p id="popupMsg"></p>
+			<div class="hearts" id="hearts"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
